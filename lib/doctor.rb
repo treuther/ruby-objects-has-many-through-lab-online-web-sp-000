@@ -11,7 +11,7 @@ class Doctor
     @@all << self
   end
 
-  def new_appointment(date, patient)
+  def new_appointment(patient, date)
     #takes in an instance of the Patient class and a date
     #and creates a new appointment.
     #The appointment should know that it belongs to the doc
