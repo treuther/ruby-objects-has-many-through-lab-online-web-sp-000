@@ -7,7 +7,7 @@ class Patient
   #saved in the @@all array
   def initialize(name)
     @name = name
-    @@all = []
+    @@all << self
   end
   
   def new_appointment(doctor, date)
