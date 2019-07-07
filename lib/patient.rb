@@ -14,7 +14,7 @@ class Patient
     #creates a new Appointment
     #the Appointment should know that it belongs
     #to the patient
-    Appointment.new(doctor, self, date)
+    Appointment.new(date, self, doctor)
   end
   
   def appointments
