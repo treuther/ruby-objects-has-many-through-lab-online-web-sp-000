@@ -30,6 +30,7 @@ class Doctor
     #iterates over that doctor's Appointments and COLLECTS
     #the patient that belongs to each Appointments
     self.appointments.collect do |appointment|
+      binding.pry
       appointment.patient
     end
   end
